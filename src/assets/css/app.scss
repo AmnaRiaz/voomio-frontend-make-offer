@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nokora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Nokora&display=swap');
+
+::-webkit-scrollbar-track {
+    background: #250C50;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7b61ff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7b61ff;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+button {
+    appearance: button;
+    cursor: pointer;
+}
+
+body {
+    width: 100vw;
+    // height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    margin: 0 !important;
+
+    #root {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+article {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+    }
+
+    h6 {
+        font-size: 1.2rem;
+    }
+}
+
+
+@import "./views/main/index.scss";
+@import "./views/main/style.scss";
+
+// @import "./views/main/style.scss";

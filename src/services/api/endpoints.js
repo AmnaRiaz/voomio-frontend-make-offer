@@ -1,0 +1,21 @@
+export const endpoints = {
+    NFTS: 'nft',
+    MYNFTS: (id) => 'nft/creatednft/' + id,
+    COLLECTIONS: 'collection',
+    ALLTOPCOLLECTIONSPRICE: 'collection/alltopprice',
+    TOPCOLLECTIONS: 'collection/top',
+    TRENDINGCOLLECTIONS: 'collection/trending',
+    ALLTOPCOLLECTIONS: 'collection/alltop',
+    ALLTRENDINGCOLLECTIONS: 'collection/alltrending',
+    ALLNFTS: 'nft',
+    TOP_CREATORS: 'user/top',
+    TRANSACTIONS: 'transaction',
+    FAVORITES: 'nft/favorites',
+    ADD_TO_FAVORITES_NFT: (id) => 'nft/star/' + id,
+    REMOVE_FROM_FAVORITES_NFT: (id) => 'nft/unstar/' + id,
+    TICKET_MESSAGES: (id) => 'ticket/message/' + id,
+    OPEN_TICKET: 'ticket/open',
+    TICKET: 'ticket',
+    CLOSE_TICKET: (id) => 'ticket/close/' + id,
+    SEND_NEW_MESSAGE: 'ticket/message'
+}
